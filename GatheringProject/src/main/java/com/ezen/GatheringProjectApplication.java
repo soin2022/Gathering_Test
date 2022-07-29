@@ -8,6 +8,7 @@ public class GatheringProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(GatheringProjectApplication.class, args);
+	System.out.println("메롱");
 	}
 
 }
