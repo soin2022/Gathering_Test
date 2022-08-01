@@ -11,6 +11,7 @@ public class GatheringProjectApplication {
 	System.out.println("메롱");
 	System.out.println("이그노어 업데이트");
 	System.out.println("이그노어 업데이트 했다고");
+	System.out.println("이그노어 업데이트 했다고");
 	}
 
 }
