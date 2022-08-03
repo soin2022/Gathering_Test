@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>One Page Wonder - Start Bootstrap Template</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+        rel="stylesheet" />
+    <!-- jquery -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="styles.css" rel="stylesheet" />
+
+
+</head>
+
+<body id="page-top">
+    <!-- Nav바 구간-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container ">
+            <a class="navbar-brand" href="#page-top">게더링(Gathering)</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ">
+                    <li class="nav-item"><a class="nav-link" href="#!">모임 만들기</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">활동중인 모임</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Q&A 게시판</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">공지사항</a></li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#!">Sign Up</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Log In</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--사이드바 시작구간-->
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="position-sticky pt-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <span data-feather="home"></span>
+                                Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="file"></span>
+                                Orders
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="shopping-cart"></span>
+                                Products
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="users"></span>
+                                Customers
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="bar-chart-2"></span>
+                                Reports
+                            </a>
+                        </li>
+
+                    </ul>
+
+
+                    </ul>
+                </div>
+            </nav>
+
+            <!--메인구간 -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+
+
+
+
+                <h2 style="padding-top:5%">회원가입</h2>
+
+
+                <!-- 회원가입 폼-->
+
+                <form class="container row" style="float: none; margin:100 auto;">
+
+                    <div class="mb-3">
+                        <!--회원ID-->
+                        <div class="row mb-2">
+                            <label for="input_user_id" class="col-sm-2 col-form-label">회원ID</label>
+
+                            <div class="col-auto">
+                                <input type="text" class="form-control" id="input_user_id" placeholder="회원ID">
+                            </div>
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-primary">중복체크</button>
+                            </div>
+                        </div>
+                        <!--비밀번호-->
+                        <div class="row mb-2">
+                            <label for="input_password" class="col-sm-2 col-form-label">비밀번호</label>
+                            <div class="col-auto">
+                                <input type="password" class="form-control" id="input_password" placeholder="비밀번호">
+                            </div>
+                        </div>
+                        <!--비밀번호확인-->
+                        <div class="row mb-2">
+                            <label for="input_password_check" class="col-sm-2 col-form-label">비밀번호확인</label>
+                            <div class="col-auto">
+                                <input type="password" class="form-control" id="input_password_check"
+                                    placeholder="비밀번호확인">
+                            </div>
+                        </div>
+                        <!--이름-->
+                        <div class="row mb-2">
+                            <label for="input_name" class="col-sm-2 col-form-label">이름</label>
+                            <div class="col-auto">
+                                <input type="text" class="form-control" id="input_name" placeholder="이름">
+                            </div>
+                        </div>
+                        <!--닉네임-->
+                        <div class="row mb-2">
+                            <label for="input_nickname" class="col-sm-2 col-form-label">닉네임</label>
+                            <div class="col-auto">
+                                <input type="text" class="form-control" id="input_nickname" placeholder="닉네임">
+                            </div>
+                        </div>
+                        <!--성별-->
+                        <div class="row mb-2">
+
+                            <label for="input_gender" class="col-sm-2 col-form-label">성별</label>
+                            <div class="col-auto">
+                                <div class="row" style="padding-left:10px;">
+                                    <div class="form-check col-auto py-2">
+                                        <input class="form-check-input" type="radio" name="input_gender"
+                                            id="input_gender" value="1" checked>남자
+                                    </div>
+                                    <div class="form-check col-auto py-2">
+                                        <input class="form-check-input" type="radio" name="input_gender"
+                                            id="input_gender" value="2">여자
+                                    </div>
+                                    <div class="form-check col-auto py-2">
+                                        <input class="form-check-input" type="radio" name="input_gender"
+                                            id="input_gender" value="0">선택안함
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--생년월일-->
+                        <div class="row mb-2">
+                            <label for="input_yob" class="col-sm-2 col-form-label">생년월일</label>
+                            <div class="col-auto">
+                                <input type="text" class="form-control" id="input_yob" placeholder="년도">
+                            </div>
+                            <div class="col-auto">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected value="1">1월</option>
+                                    <option value="2">2월</option>
+                                    <option value="3">3월</option>
+                                    <option value="4">4월</option>
+                                    <option value="5">5월</option>
+                                    <option value="6">6월</option>
+                                    <option value="7">7월</option>
+                                    <option value="8">8월</option>
+                                    <option value="9">9월</option>
+                                    <option value="10">10월</option>
+                                    <option value="11">11월</option>
+                                    <option value="12">12월</option>
+                                </select>
+                            </div>
+                            <div class="col-auto">
+                                <input type="text" class="form-control" id="input_dob" placeholder="일">
+                            </div>
+
+                        </div>
+                        <!--이메일-->
+                        <div class="row mb-2">
+                            <label for="input_email" class="col-sm-2 col-form-label">이메일</label>
+                            <div class="col-auto">
+                                <input type="text" class="form-control" id="input_email" placeholder="이메일">
+                            </div>
+                            @
+                            <div class="col-auto">
+                                <input type="text" class="form-control" id="input_email">
+                            </div>
+                            <div class="col-auto">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected value="1">naver.com</option>
+                                    <option value="2">nate.com</option>
+                                    <option value="3">gmail.com</option>
+                                    <option value="4">daum.net</option>
+                                    <option value="5">직접입력</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <!--전화번호-->
+                        <div class="row mb-2">
+                            <label for="input_phone" class="col-sm-2 col-form-label">전화번호</label>
+                            <div class="col-2">
+                                <input type="text" class="form-control" id="input_phone">
+                            </div>
+
+                            <div class="col-2">
+                                <input type="text" class="form-control" id="input_phone">
+                            </div>
+                            <div class="col-2">
+                                <input type="text" class="form-control" id="input_phone">
+                            </div>
+                        </div>
+                        <!--주소-->
+                        <div class="row mb-2">
+                            <label for="input_address1" class="col-sm-2 col-form-label">주소</label>
+                            <div class="col-5">
+                                <input type="text" name="zipcode" id="zipcode" size="7" readonly>
+                                <input type="button" value="우편번호찾기" onclick="kakaopost()">
+                                <input type="text" name="address" id="address" size="50">
+                                <button type="button" id="searchBtn">검색</button>
+                                <div id="map" style="width:450px;height:350px;"></div>
+                            </div>
+                            <!--관심분야-->
+                            <div class="row mb-3">
+                                <label for="input_user_interest" class="col-sm-2 col-form-label">관심분야</label>
+                                <div class="container col">
+                                    <div class="row row-cols-3">
+
+                                        <div class="col">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked1">
+                                            <label class="form-check-label" for="flexCheckChecked1">
+                                                스포츠
+                                            </label>
+                                        </div>
+                                        <div class="col">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked2">
+                                            <label class="form-check-label" for="flexCheckChecked2">
+                                                음악
+                                            </label>
+                                        </div>
+                                        <div class="col">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked3">
+                                            <label class="form-check-label" for="flexCheckChecked3">
+                                                문화
+                                            </label>
+                                        </div>
+                                        <div class="col">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked4">
+                                            <label class="form-check-label" for="flexCheckChecked4">
+                                                봉사활동
+                                            </label>
+                                        </div>
+                                        <div class="col">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked5">
+                                            <label class="form-check-label" for="flexCheckChecked5">
+                                                반려동물
+                                            </label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text-center">
+                                    <input class="btn btn-primary" style="margin-right: 10px;" type="submit"
+                                        value="회원가입">
+                                    <button class="btn btn-primary" type="button">취소</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                </form>
+
+
+
+
+
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <footer class="py-5 bg-black">
+        <div class="container px-5">
+            <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2022</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!--autoload=false 파라미터를 이용하여 자동으로 로딩되는 것을 막습니다.-->
+    <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js?autoload=false"></script>
+    <!--카카오 지도,주소-->
+    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+    <script type="text/javascript"
+        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=6a81e3b1d414024f75344e4e8fc907b8&libraries=services"></script>
+    <!--버튼클릭시 지도에 표시-->
+    <script>
+        var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+            mapOption = {
+                center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+                level: 3 // 지도의 확대 레벨
+            };
+
+
+        $('#searchBtn').click(function () {
+            // 버튼을 click했을때
+
+            // 지도를 생성합니다    
+            var map = new kakao.maps.Map(mapContainer, mapOption);
+
+            // 주소-좌표 변환 객체를 생성합니다
+            var geocoder = new kakao.maps.services.Geocoder();
+
+            // 주소로 좌표를 검색합니다
+            geocoder.addressSearch($('#address').val(), function (result, status) {
+
+                // 정상적으로 검색이 완료됐으면 
+                if (status === kakao.maps.services.Status.OK) {
+                    var coords = new kakao.maps.LatLng(result[0].y, result[0].x);
+
+                    // 추출한 좌표를 통해 도로명 주소 추출
+                    let lat = result[0].y;
+                    let lng = result[0].x;
+                    getAddr(lat, lng);
+                    function getAddr(lat, lng) {
+                        let geocoder = new kakao.maps.services.Geocoder();
+
+                        let coord = new kakao.maps.LatLng(lat, lng);
+                        let callback = function (result, status) {
+                            if (status === kakao.maps.services.Status.OK) {
+                                // 추출한 도로명 주소를 해당 input의 value값으로 적용
+                                $('#address').val(result[0].road_address.address_name);
+                            }
+                        }
+                        geocoder.coord2Address(coord.getLng(), coord.getLat(), callback);
+                    }
+
+                    // 결과값으로 받은 위치를 마커로 표시합니다
+                    var marker = new kakao.maps.Marker({
+                        map: map,
+                        position: coords
+                    });
+
+                    // 인포윈도우로 장소에 대한 설명을 표시합니다
+                    var infowindow = new kakao.maps.InfoWindow({
+                        content: '<div style="width:150px;text-align:center;padding:6px 0;">정모</div>'
+                    });
+                    infowindow.open(map, marker);
+
+                    // 지도의 중심을 결과값으로 받은 위치로 이동시킵니다
+                    map.setCenter(coords);
+                }
+            });
+        });
+
+    </script>
+    <!-- 우편찾기 함수 -->
+    <script>
+        function kakaopost() {
+            new daum.Postcode({
+                oncomplete: function (data) {
+                    document.querySelector("#zipcode").value = data.zonecode;
+                    document.querySelector("#address").value = data.address
+                }
+            }).open();
+        }
+    </script>
+    <!--카카오 지도 구현 스크립트 끝-->
+
+</body>
+
+</html>
